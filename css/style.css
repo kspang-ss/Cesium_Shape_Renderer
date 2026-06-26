@@ -1,18 +1,20 @@
-/* Global --------------------------------*/
+/* Global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
 body {
     background-color: #000;
 }
+
 #cesiumContainer {
     height: 100vh;
 }
 
-/* Tool Bar --------------------------------*/
+/* Tool Bar */
 #toolBar {
     position: absolute;
     display: flex;
@@ -24,15 +26,18 @@ body {
     border: solid 1px #444;
     background-color: rgba(40, 40, 40, 0.7);
 }
+
 #toolBar .field {
     display: flex;
     gap: 0.25rem;
     align-items: center;
 }
+
 #toolBar label {
     font-size: 80%;
     color: #fff;
 }
+
 #toolBar input {
     accent-color: #66a3d8;
 }
