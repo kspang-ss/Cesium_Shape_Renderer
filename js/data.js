@@ -1,9 +1,9 @@
 // define all the shapes
 const rectangles = [
-    { lat: 40.0, lon: -100.0, width: 3.0, height: 2.0, elevation: 500000 },
-    { lat: 51.5, lon: -0.1, width: 2.5, height: 1.5, elevation: 400000 },
-    { lat: -33.9, lon: 18.4, width: 2.0, height: 3.0, elevation: 450000 },
-    { lat: 35.7, lon: 139.7, width: 2.5, height: 2.0, elevation: 350000 },
+    { lat: 40.0, lon: -100.0, width: 3.0, height: 1.5, elevation: 500000 },
+    { lat: 51.5, lon: -0.1, width: 3.0, height: 1.5, elevation: 400000 },
+    { lat: -33.9, lon: 18.4, width: 3.0, height: 1.5, elevation: 450000 },
+    { lat: 35.7, lon: 139.7, width: 3.0, height: 1.5, elevation: 350000 },
     { lat: -22.9, lon: -43.2, width: 3.0, height: 1.5, elevation: 500000 },
 ];
 
@@ -17,9 +17,9 @@ const spheres = [
 
 const squares = [
     { lat: 30.0, lon: 31.2, size: 2.0, elevation: 400000 },
-    { lat: 37.8, lon: -122.4, size: 2.5, elevation: 500000 },
-    { lat: -1.3, lon: 36.8, size: 1.8, elevation: 350000 },
-    { lat: 59.9, lon: 10.8, size: 2.2, elevation: 450000 },
+    { lat: 37.8, lon: -122.4, size: 2.0, elevation: 500000 },
+    { lat: -1.3, lon: 36.8, size: 2.0, elevation: 350000 },
+    { lat: 59.9, lon: 10.8, size: 2.0, elevation: 450000 },
     { lat: 13.8, lon: 100.5, size: 2.0, elevation: 400000 },
 ];
 
